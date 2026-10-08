@@ -15,5 +15,8 @@ orgs.newOrg('modeling.tmodeler', 'eclipse-tmodeler') {
     orgs.newRepo('tmodeler-cpp') {
       description: "TModeler C++ implementation",
     },
+    orgs.newRepo('tmodeler-kmp') {
+      description: "TModeler Kotlin Multiplatform implementation",
+    },
   ],
 }
